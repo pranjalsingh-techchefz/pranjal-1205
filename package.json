@@ -1,0 +1,22 @@
+{
+  "name": "pranjal-1205",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pranjalsingh-techchefz/pranjal-1205.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pranjalsingh-techchefz/pranjal-1205/issues"
+  },
+  "homepage": "https://github.com/pranjalsingh-techchefz/pranjal-1205#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.3.1"
+  }
+}
