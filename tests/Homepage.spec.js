@@ -1,22 +1,21 @@
-const {test,expect} = require('@playwright/test')
+import { test, expect } from '@playwright/test';
 
-test ('Home Page',async ({page})=>{
+test('Home Page', async ({ page }) => {
 
     await page.goto('https://stagecdn.royalenfield.com/in/en/reown/');
 
-    const pageTitle=page.title();
+    const pageTitle = await page.title(); // Add await here as it returns a promise
 
     console.log('Page title is:', pageTitle);
 
     await expect(page).toHaveTitle('Sell/Buy Motorcycle in India | Royal Enfield India');
 
-    const pageURL=page.url();
+    const pageURL = page.url();
 
     console.log('Page URL is:', pageURL);
 
-    await expect (page).toHaveURL('https://stagecdn.royalenfield.com/in/en/reown/');
+    await expect(page).toHaveURL('https://stagecdn.royalenfield.com/in/en/reown/');
 
     await page.close();
 
-}
-)
+});

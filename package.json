@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {},
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pranjalsingh-techchefz/pranjal-1205.git"
